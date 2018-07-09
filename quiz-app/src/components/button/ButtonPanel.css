@@ -1,0 +1,12 @@
+.buttonPanel {
+	margin-top: 1rem;
+}
+
+.buttonPanel button {
+	min-width: 80px;
+	text-align: center;
+}
+
+.buttonPanel button.btn-primary {
+	float: right;
+}

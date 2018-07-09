@@ -1,0 +1,15 @@
+tr.success {
+	background-color: rgba(40, 167, 69, 0.3);
+}
+
+tr.failure {
+	background-color: rgba(220, 53, 69, 0.3);
+}
+
+td.text {
+	font-size: 14px;
+}
+
+tfoot {
+	text-align: right;
+}

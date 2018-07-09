@@ -1,0 +1,12 @@
+.questionText {
+	color: white;
+	background: black;
+	padding: 10px;
+	display: block;
+}
+
+.questionText > p {
+	background: transparent;
+	padding: 0px;
+	margin: 0px;
+}
