@@ -9,6 +9,7 @@ import QuestionCounter from './question/QuestionCounter';
 import Question from './../classes/Question';
 import AnswerType from './../const/AnswerType';
 import Endpoint from './../const/Endpoint';
+import Spinner from './generic/Spinner';
 
 // Import CSS
 import './Quiz.css';
@@ -188,7 +189,7 @@ export default class Quiz extends React.Component {
 		if (!questionsAvailable) {
 			// Return some loading indicator
 			return (
-				<div>Loading..</div>
+				<Spinner/>
 			);
 		}
 

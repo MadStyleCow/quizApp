@@ -6,6 +6,7 @@ import Question from './../classes/Question';
 import Result from './result/Result';
 import ResultPercentage from './result/ResultPercentage';
 import Endpoint from './../const/Endpoint';
+import Spinner from './generic/Spinner';
 
 // Import CSS
 import './Quiz.css';
@@ -83,7 +84,7 @@ export default class Quiz extends React.Component {
 		if (!resultsAvailable) {
 			// Return some loading indicator
 			return (
-				<div>Loading..</div>
+				<Spinner/>
 			);
 		}
 
